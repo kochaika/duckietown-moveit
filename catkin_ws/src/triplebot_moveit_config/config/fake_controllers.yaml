@@ -1,0 +1,15 @@
+controller_list:
+  - name: fake_r1_controller
+    joints:
+      - r1_base_joint
+  - name: fake_r2_controller
+    joints:
+      - r2_base_joint
+  - name: fake_r3_controller
+    joints:
+      - r3_base_joint
+  - name: fake_all_controller
+    joints:
+      - r1_base_joint
+      - r2_base_joint
+      - r3_base_joint

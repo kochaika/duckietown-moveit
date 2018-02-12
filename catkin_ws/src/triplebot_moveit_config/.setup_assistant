@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: duckietown_description
+    relative_path: urdf/triplebot.urdf.xacro
+  SRDF:
+    relative_path: config/triplebot.srdf
+  CONFIG:
+    author_name: Konstantin Chayka
+    author_email: pro100kot14@gmail.com
+    generated_timestamp: 1518428545
