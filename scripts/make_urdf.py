@@ -12,7 +12,7 @@ from urdf_parser_py.urdf import *
 
 logging.basicConfig(level=logging.DEBUG)
 robot_name = "duckiebot"
-robot_count = 2
+robot_count = 4
 robot_base_joint_type = "planar"
 robot_world_joint_type = "floating"
 

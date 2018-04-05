@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<robot name="duckiebot">
+  <virtual_joint child_link="base_link" name="virtual_joint" parent_frame="odom_combined" type="planar"/>
+  <group name="all">
+    <group name="r0"/>
+    <group name="r1"/>
+    <group name="r2"/>
+    <group name="r3"/>
+  </group>
+  <group name="r0">
+    <link name="r0"/>
+    <joint name="r0_base_joint"/>
+  </group>
+  <group name="r1">
+    <link name="r1"/>
+    <joint name="r1_base_joint"/>
+  </group>
+  <group name="r2">
+    <link name="r2"/>
+    <joint name="r2_base_joint"/>
+  </group>
+  <group name="r3">
+    <link name="r3"/>
+    <joint name="r3_base_joint"/>
+  </group>
+</robot>

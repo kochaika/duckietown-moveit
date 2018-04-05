@@ -1,6 +1,6 @@
 #!/bin/sh
 
-python make_urdf.py ~/ws_moveit/src/duckietown_description/urdf/duckiebot.urdf ~/ws_moveit/src/duckietown_description/urdf/ducks.urdf ~/ws_moveit/src/ducks/
+python make_urdf.py ../catkin_ws/src/duckietown_description/urdf/duckiebot.urdf ../catkin_ws/src/duckietown_description/urdf/ducks.urdf ../catkin_ws/src/ducks/
 
 roslaunch ducks planning_context.launch load_robot_description:=true &
 
